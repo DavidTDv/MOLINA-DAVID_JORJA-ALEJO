@@ -2,7 +2,7 @@ package com.backage.parcial.test;
 
 import com.backage.parcial.model.Odontologo;
 import com.backage.parcial.service.OdontologoLista;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeAll;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -25,5 +25,6 @@ class OdontologoListaTest {
 
         assertTrue(odontologoLista.listar().contains(odontologo));
     }
+
 
 }
